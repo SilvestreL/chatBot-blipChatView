@@ -4,6 +4,13 @@ import { useStore } from "../../store/useStore"; // Zustand para armazenar o est
 import { useMessageStore } from "@/store/messageStore"; // Zustand para as mensagens
 import { useRouter } from "next/navigation";
 
+type Message = {
+  contactId: string;
+  message: string;
+  timestamp: Date;
+  direction: "sent" | "received"; // Direções permitidas
+};
+
 const ContactChat = () => {
   const { apiKey, currentContactId, setContactId } = useStore(); // Zustand para obter e resetar o ID do contato
   const { messages, fetchMessages, addMessage } = useMessageStore(); // Zustand para gerenciar mensagens
@@ -41,7 +48,8 @@ const ContactChat = () => {
   const handleSendMessage = async () => {
     if (newMessage.trim() === "") return; // Verifica se a mensagem não está vazia
 
-    const newMessageObj = {
+    // Cria o objeto de nova mensagem com o tipo correto
+    const newMessageObj: Message = {
       contactId: currentContactId!,
       message: newMessage,
       timestamp: new Date(),

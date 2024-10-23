@@ -5,9 +5,11 @@ Este projeto é uma aplicação de chat construída com Next.js e integrada ao *
 
 ## Project Images
 
-![Chat View Home](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page1.png)
-![Chat View Conversation](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page2.png)
-![Chat View Contacts](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page3.png)
+<p float="left">
+  <img src="https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page1.png" alt="DevPage Screenshot 1" width="200" />
+  <img src="https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page2.png" alt="DevPage Screenshot 2" width="200" />
+  <img src="https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page3.png" alt="DevPage Screenshot 4" width="200" />
+</p>
 
 ## Tecnologias Utilizadas
 

@@ -12,7 +12,7 @@ type Message = {
 
 type MessageState = {
   messages: Message[];
-  fetchMessages: (contactId: string) => void;
+  fetchMessages: (contactId: string) => void; 
   addMessage: (newMessage: Message) => void;
   clearMessages: () => void; // Nova função para limpar as mensagens
 };

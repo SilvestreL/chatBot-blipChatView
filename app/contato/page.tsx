@@ -25,9 +25,6 @@ const messagesResponseSchema = z.object({
   }),
 });
 
-
-
-
 interface Message {
   direction: "sent" | "received";
   content: string;

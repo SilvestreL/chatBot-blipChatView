@@ -3,6 +3,12 @@
 
 Este projeto é uma aplicação de chat construída com Next.js e integrada ao **Blip**, utilizando **Zustand** para gerenciamento de estado e **Firebase** para o armazenamento das mensagens. A aplicação permite a visualização e o envio de mensagens para contatos cadastrados no Blip, salvando as mensagens no **Firebase Firestore**.
 
+## Project Images
+
+![Chat View Home](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page1.png)
+![Chat View Conversation](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page2.png)
+![Chat View Contacts](https://github.com/SilvestreL/chatBot-blipChatView/blob/main/public/images/page3.png)
+
 ## Tecnologias Utilizadas
 
 - **Next.js**: Framework para construção de interfaces modernas e eficientes, com server-side rendering.
